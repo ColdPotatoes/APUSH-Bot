@@ -1,0 +1,109 @@
+{
+    "1": "The year is 1664. You are a merchant traveling to the New Netherlands colony to sell your wares and goods.",
+    "2": "The morning sun shines brightly above you. Just having passed the River Colony, Connecticut, lowlands and mountains alike can be seen from the front of your ship.",
+    "3": "After a moment, on the estuary of the Hudson River, the bustling settlement of New Amsterdam comes into view. Traders bargaining with anyone who would give them the time, sailors preparing for their next voyage, citizens on their way to their next appointment: this was the economic hub of the New World that you came looking for.",
+    "4": "As the boat arrives on the docks, you quickly take your possessions and wares, hurrying to the town square, where the governor seems to be reciting a speech.",
+    "5": "???\n\nGood day to you all! We trust that you all had a safe voyage at sea, and it would be my honor to properly welcome you to the wonderful colony of New Netherlands!",
+    "6": "???\n\nBut allow me to properly introduce myself. I am Peter Stuyvesant, the governor of our prosperous colony.",
+    "7": "Peter Stuyvesant\n\nThe land that we now call New Netherlands was discovered by famous explorer Henry Hudson, who was chartered by our own Dutch East India Company to discover the fabled Northwest Passage. Hudson, through his expeditions, discovered the river that our colony resides on today.",
+    "8": "Peter Stuyvesant\n\nAfter seeing the prime location of this area, the East India Company established trading posts on this island and Fort Orange, which is upriver, in 1610. Our late governor, Peter Minuit, then bought the island for our colony from the native savages for just 60 gilders.",
+    "9": "Peter Stuyvesant\n\nLater, our colonists established a fort on the lower end of this island, which we now call New Amsterdam. And just nine years ago, we expanded our reach all the way to New Sweden as well.",
+    "10": "Peter Stuyvesant\n\nBut that’s enough of our rich history, it’s time to embrace you all and welcome to our colony! Welcome to New Netherlands, the economic capital of the New World where trade prospers and riches flow freely! Welcome, colonists and merchants all!",
+    "11": "You clap along with the audience as the governor leaves the square. As you make your way to leave, you notice a finely dressed man eyeing you from across the plaza.\n\nTalk to the man?\n\nYes\nNo",
+
+    "400": "You decide to walk over towards the man. He seems to be alone, but richly dressed. As you come closer, he motions for you, and when you arrive, he begins to walk as he speaks. You motion for the dockworkers to hold your goods, and walk with the man.",
+    "401": "???\n\nHello, good sir. Who might you be?\n\n(>) I’m just a merchant coming to sell goods and wares.",
+    "402": "???\n\nAh, I gathered as such, from all the barrels and crates you seem to have in your stow. I’m Erick Lyu. I work for Governor Stuyvesant, who you doubtless heard during the speech.\n\n(>) Nice to meet you, Sir Lyu.",
+    "403": "Erick Lyu\n\nJust Erick is fine. Say, I’ve been meaning to buy a copy of Hooke’s new discovery about Jupiter. Do you happen to sell academia?\n\n(>) As a matter of fact, I do.",
+    "404": "Erick Lyu\n\nThis is a welcome surprise! It’s been some time since we’ve had any different merchants from the regulars around our town. Always wanting to buy whatever we have in stock, always coming to sell their manufactured goods. Quite a few of us have been looking for academia, in fact.\n\n(>) It was good that I brought these, then.",
+    "405": "Erick Lyu\n\nIndeed it was. Well, I won’t take any more of your time, you most likely have a busy day in front of you. Welcome to New Amsterdam!",
+
+    "500": "You decide to continue with your business. After all, there’s barrels to roll out, crates to unpack, and errands to run before you can socialize with the citizens. You quickly sort out your items and go about your day, then decide to go back to the plaza to explore the settlement.",
+
+    "12": "You find yourself back in the town square. In the distance, you can hear the familiar sounds of the marketplace, with merchants advertising their prices as loud as they can manage. The tavern’s door is open, with customers slowly coming in with friends and partners.",
+    "13": "Where to?\n\nMarketplace\nTavern",
+
+
+
+    "1000": "You find your way to the marketplace behind the townsquare. As you approach, you see a bustling strip of vendors and people.",
+    "1001": "Three vendors catch your eye. Which do you walk up to?\n\nStall 1: You overhear a conversation between a man, similar to you, and a group of Native Americans, the man seems to be a middle man for the Natives to sell their goods\n\nStall 2: You see a blacksmith next to his wagon full of different processed and raw materials selling his goods to other people.\n\nStall 3: You see a man trying to repair a large fishing net while trading with the many people at his stall.",
+
+    "1050": "You walk up to the stall in which the man and the Natives are having a conversation. The man notices you and quickly turns to face you.",
+    "1051": "???\n\nGood day, my name is Mr. Leslie, and you?\n\n(>) I am but a merchant coming here to sell my goods and wares.",
+    "1052": "Mr. Leslie\n\nThese men were just delivering the furs from their last hunt to me so that I could help them trade while they continue to hunt.\n\n(>) Who might these people be?",
+    "1053": "Mr. Leslie\n\nThey are Indians from the Iroquois league. 12,000 strong, and only getting more powerful because of the guns they receive from trading the pelts they obtain from their hunts.",
+    "1054": "Mr. Leslie\n\nIn all honesty, I would like it if they could just go away, so that I could take over this market myself instead of forcing me to give most of my sales back.",
+    "1055": "Mr. Leslie\n\nAll in good time, I hear there is disease ravishing their populations by the hundreds every day. Then I can finally take advantage of the British and the French myself.”\n\n(>) What is going on between the British and the French?",
+    "1056": "Mr. Leslie\n\nThey both have their own fur trade and they both seem inclined to fight for a monopoly. So, if I was to supply both sides with furs to trade, then I could become rich!\n\n(>) (Head back to Marketplace)",
+
+    "1100": "You approach a blacksmith. His hands are calloused by the hours of labor processing raw metals and handling other materials. ",
+    "1101": "You take a step closer to see the goods within his wagon.",
+    "1102": "???\n\nHi, my name is Reinhardt Naar. I see you want to know what I am selling. Well, you don’t have to stick your nose into my cart to do that. You could just ask! I have spent many hours toiling over my goods, yet with no appreciation from the others.",
+    "1103": "Reinhardt Naar\n\nI wish the lumberjacks could work slower so I could keep up! Other than that, I, along with many other merchants, like it here, compared to the merchants in other colonies. Now hurry along if you aren't buying anything. \n\n(>) (Head back to Marketplace)",
+
+    "1150": "As you approach the stall, you notice the crowd’s attention is directed towards the rack of cod. You walk up to the man as he finishes up repairing his net.",
+    "1151": "???\n\nGood day, my name is Allan Lee, but you can just call me Allan. What do you need?\n\n(>) I want to know what is popular at the fish market.",
+    "1152": "Allan Lee\n\nOk. As you can see, cod is the most popular amongst the colonists, but don’t let that fool you. I’ve also fished many herring and have obtained a lot of clams.",
+    "1153": "You notice a large pile of lobster tucked away behind the stall.\n\n(>) How do you have so much fish in stock?",
+    "1154": "Allan Lee\n\nWell, the climate here is fantastic for fishing and farming during the summer. We have hot summers and cold and wet winters that attract many different types of fish. And, There is a good amount of rain all year round.\n\n(>) Ah, I see. Thanks for your knowledge! (Head back to Marketplace)",
+
+    "1500": "You make your way to the tavern. A wooden sign reading “Dirck Storm’s Tavern” is swinging above the door, which you push open to go inside.",
+    "1501": "The first table you see is occupied by two well-dressed men, who seem to be discussing something in earnest.",
+    "15010": "Among them, you see Erick, who waves at you to come over.",
+    "1502": "At another table, you see a casually dressed man talking to the bartender with a few drinks.",
+    "1503": "As you think about which table to go to, your eyes fall upon a drunk man at the bar, dressed haphazardly in ragged clothes, cursing obscenities to no one in particular.",
+    "1504": "Where do you choose to go?\n\nTable 1\nTable 2\nBar",
+
+
+
+    "2000": "You approach the first table, and the gentlemen make room for you to sit down. One of them asks for your name, and you recognize him as the man who was eyeing you in the market square.",
+    "2001": "???\n\nHello, good sir. Who might you be?\n\n(>) I’m just a merchant coming to sell goods and wares.",
+    "2002": "???\n\nA merchant? Say, we’ve been meaning to buy a copy of Hooke’s new discovery about Jupiter. Do you happen to sell academia?\n\n(>) As a matter of fact, I do.",
+    "2003": "???\n\nThis is a welcome surprise! It’s been some time since we’ve had any different merchants from the regulars around our town. Always wanting to buy our furs, always coming to sell their manufactured goods. Quite a few of us have been looking for academia, in fact.\n\n(>) It was good that I brought these, then.",
+    "2004": "???\n\nIndeed it was. But where are my manners? I have yet to introduce myself. I am Erick Lyu, and my company here is Atticus Lee.\n\n(>) Hello.",
+
+
+    "2500": "Erick Lyu\n\nHello! Good to see you again. Allow me to introduce you to Atticus, a good partner of mine.\n\n(>) Hello.",
+    
+
+    "3000": "Atticus Lee\n\nHello. It's very nice to meet you.",
+    "3001": "Erick Lyu\n\nAs much as I would like to idly speak of other subjects, I must return to the matter at hand. Both Atticus and I have been looking for a private merchant, who would be able to sell us specific goods from Europe, such as vintage wines and academic papers, and we were wondering whether you would fill this role.",
+    "3002": "Erick Lyu\n\nThrough our positions within the government, we could allow you to stay in New Amsterdam fully for the rest of your life with land if you take this offer for a set period of time, say, ten years. We would obviously pay for whatever sales you make in addition to an agreed-upon commission for the voyage. What do you say? Do you accept?\n\nYes, I accept your offer.\n\nNo, I prefer to keep my options open.\n\nLet me think about it for a bit. I’ll get back to you. (Back to Tavern Entrance)",
+
+
+    "4000": "Erick Lyu\n\nThat’s wonderful! Let us discuss your contract, then.",
+    "4001": "You, Erick, and Atticus discuss the terms of your contract in the Tavern, negotiating and bargaining until all three of you are in agreement. You agree to give some of your wares in advance, due to their positions of power, and they agree to reward you handsomely on your return. You continue with your day-to-day activities in New Amsterdam, with the added bonus of Erick and Atticus’s commissions in your travels. Your stay in the settlement is like most of your past experiences: stay for a few days, sell and trade what you can, and head to a different colony or back to Europe. In this case, you choose the latter.",
+    "4002": "Several years later, your voyage back to New Amsterdam is almost over: you’ve completed your rounds back home and have gone to a few other settlements to trade. However, as you approach the Dutch colony, you realize that the colony no longer is Dutch: a British flag waves from the fort. Upon asking for Erick and Atticus, you find that they have long since gone from the colony after the British inquisition, and when you attempt to enter the city, you are told that your services are no longer needed here. Realizing that there is really nothing else that you can do, and that arguing with the guards will do no good, all you can do is wait for the ship to leave once more with the loss of your goods in your mind.",
+
+
+    "5000": "Erick Lyu\n\nHmmmm. Well, it was nice to talk to you. Thank you for the academia.\n\n(>) And to you as well.",
+    "5001": "You exert the tavern, continuing with your day-to-day activities in New Amsterdam. Your stay in the settlement is like most of your past experiences: stay for a few days, sell and trade what you can, and head to a different colony or back to Europe. In this case, you choose the latter.",
+    "5002": "Several years later, your voyage back to New Amsterdam is almost over: you’ve completed your rounds back home and have gone to a few other settlements to trade. However, as you approach the Dutch colony, you realize that the colony no longer is Dutch: a British flag waves from the fort. Upon asking for Erick and Atticus, you find that they have long since gone from the colony after the British inquisition. According to the guards, they were caught planning to overthrow the new British governor. You offer your services to the new colony of New York, and you have a long and successful career for the years to come.",
+
+    "10000": "You approach the second table with the normally-dressed man. He waves at you, stopping his conversation with the bartender.",
+    "10001": "??? \n\nHello! How are you doing today? \n\n(>) I’m doing fine today, thanks.",
+    "10002": "??? \n\nToday’s as well of a day as any other. I’m Marcus, nice to meet you. \n\n(>) Same to you as well.",
+    "10003": "Marcus \n\nSo, what’s your opinion on New Amsterdam. Are you looking to stay here? \n\n(>) Not in particular.",
+    "10004": "Marcus \n\nThat’s a shame. I may be a bit biased, but New Amsterdam is one of the best colonies in the New World right now. Our economy is thriving, and we don’t really care what your religion is, either. Our founding joint-stock company says that our religious institution is the Reformed Church, but we won’t persecute you like the Pilgrims for not following that. \n\n(>) Sounds like a good settlement.",
+    "10005": "Marcus \n\nExactly! That’s why you should stay. Although, if you plan to get a position of power, you’re probably going to have to do some unsavory acts to get there. That’s probably the only downside.  \n\n(>) Unsavory acts?",
+    "10006": "Marcus  \n\nOh, you know, just rumors about some specific government officials being corrupt. It doesn’t really affect us citizens, though, so it’s fine. The government doesn’t really have that much power, because the Dutch West India Company just put one governor in charge. He doesn’t actually do anything important, we just follow whatever the Company says, which isn’t much.  \n\n(>) I see…",
+    "10007": "Marcus \n\nWell, let me know if you decide to stay! I can show you around if you haven’t seen everywhere already. \n\n(>) Thanks for the offer. (Back to Tavern Entrance)",
+
+    "11000": "??? \n\nGODDAMNIT STUYVESASDNANSJA WHATEVER YOUR NAME IS, I ASKED FOR ONE THING AND YOU CAN’T EVEN GIVE ME THAT! \n\n (>) (To bartender) Who is this person?",
+    "11001": "Bartender \n\nThat’s Henry Yan. He comes here pretty often, just to complain about the governor and his policies.",
+    "11002": "Henry Yan \n\nWHO THE HELL ARE YOU? \n\n(>) I’m... a merchant.",
+    "11003": "Henry Yan \n\n Well, at least you aren’t some godforsaken new government official. They don’t do anything, for or against us. All they do is- They don’t even do anything, and they get an entire GARDEN to themselves. \n\n(>)  Ah. If I may ask-",
+    "11004": "Henry Yan \n\n If you’re going to ask who I am, I’m just some indentured servant who worked to hell and back to get my freedom and land and money. But those pretentious twats over there working for Stuyvewhatever don’t do anything, and just curry his favor while he sits there doing nothing. It’s bullshit. \n\n(>) Well, good luck on your endeavors… (back to tavern entrance)",
+
+
+    "43": "",
+    "44": "",
+    "45": "",
+    "46": "",
+    "47": "",
+    "48": "",
+    "49": "",
+    "50": "",
+    "51": "",
+    "52": ""
+}
