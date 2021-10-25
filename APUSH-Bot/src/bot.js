@@ -6,7 +6,7 @@ const prefix = '-';
 
 client.on('ready', () => {
     console.log('online');
-    client.user.setActivity('Your Adventures', { type: "WATCHING"});    
+    client.user.setActivity('Your Adventures', { type: "WATCHING" });
 });
 
 client.on('guildMemberAdd', guildMember => {
@@ -19,8 +19,15 @@ let talkErk = false;
 client.on('messageReactionAdd', (reaction, user) => {
     if (reaction.message.author == client.user && user != client.user) {
 
+        if (i == 4002 || i == 5002) {
+            reaction.message.edit(txt[i]).then(message => {
+                message.reactions.removeAll();
+                i = 1;
+            });
+        }
+
         // choices
-        if (i == 11) {
+        else if (i == 11) {
             reaction.message.edit(txt[i]).then(message => {
                 message.reactions.removeAll();
                 message.react('✅');
@@ -58,12 +65,10 @@ client.on('messageReactionAdd', (reaction, user) => {
                 message.react('🐟');
                 i++;
             });
-        } 
-        
+        }
+
         //checkpoints
-        else if (i == 4002 || 5002) {
-            reaction.message.edit(txt[i]);
-        } else if (i == 406 || i == 501) {
+        else if (i == 406 || i == 501) {
             i = 12;
             reaction.message.edit(txt[i]).then(message => {
                 message.reactions.removeAll();
@@ -77,10 +82,10 @@ client.on('messageReactionAdd', (reaction, user) => {
                 message.react('➡');
                 i++;
             });
-        } 
-        
+        }
+
         //choice actions
-        else if (reaction.emoji.name === '✅') { 
+        else if (reaction.emoji.name === '✅') {
             i = 400;
             talkErk = true;
             reaction.message.edit(txt[i]).then(message => {
@@ -169,7 +174,9 @@ client.on('messageReactionAdd', (reaction, user) => {
                 message.react('➡');
                 i++;
             });
-        } else if (reaction.emoji.name === '➡') {
+        } 
+        
+        else if (reaction.emoji.name === '➡') {
             if (i == 1501 && talkErk == true) {
                 i = i * 10;
             } else if (i == 3003 || i == 11005 || i == 10008) {
@@ -180,7 +187,6 @@ client.on('messageReactionAdd', (reaction, user) => {
             reaction.message.edit(txt[i]).then(message => {
                 message.reactions.removeAll();
                 message.react('➡');
-                console.log('it works');
                 i++;
                 if (i == 15011) {
                     i = 1502;
@@ -198,7 +204,7 @@ client.on('message', message => {
     const command = args.shift().toLowerCase();
 
     if (command === 'start') {
-        let startChannel = client.channels.cache.get('880283282862923806');
+        let startChannel = client.channels.cache.get('882491136202113056');
 
         startChannel.send('New Netherlands, 1664').then(message => {
             message.react('➡');
@@ -207,7 +213,9 @@ client.on('message', message => {
         message.channel.send('The story has been reset!');
         i = 1;
         talkErk = false;
+    } else if (command === 'clear') {
+        message.channel.bulkDelete(100);
     }
 });
 
-client.login('ODgyMDM4OTY2ODM5Mjc5NjM2.YS1kzQ.Dox7aFJK3w5jgM0jjoARY8N79rg');
+client.login('ODgyMDM4OTY2ODM5Mjc5NjM2.YS1kzQ.iFxucYIDVFolo2Tpb9FdejZhtuc');
